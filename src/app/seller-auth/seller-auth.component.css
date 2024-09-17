@@ -1,0 +1,22 @@
+.sign-up, .Login{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.auth-link-toggle{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: left;
+    color: blueviolet;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Error{
+    color: red;
+    font-size: 18px;
+    margin-right: 95px;
+    margin-top: 15px;
+}

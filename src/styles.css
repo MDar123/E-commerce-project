@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.common-input{
+    margin-top: 15px;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    padding-left: 10px;
+}
+
+.common-button{
+    cursor: pointer;
+    height: 35px;
+    border: 1px solid blueviolet;
+    margin-top: 15px;
+}
+
+.common-button:disabled{
+    cursor: not-allowed;
+}
+
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color: black;
+    border: 5px;
+}
+
+.invalid-input{
+    text-align: left;
+    color: red;
+    margin-top: -20px;
+}

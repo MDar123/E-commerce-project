@@ -1,0 +1,123 @@
+.navbar-brand{
+    color: blueviolet;
+    font-size:xx-large;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: blueviolet;
+    padding-left: 5px;
+    padding-top: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#Home{
+    color: blueviolet;
+    padding-left: 45px;
+    padding-top: 15px;
+    font-size: large; 
+}
+
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 420px;
+}
+
+.form-inline{
+    padding-left: 50px;
+}
+
+.seller-header{
+    margin-left: 300px;
+}
+.seller-header .nav-link{
+    margin-right: 20px;
+    cursor: pointer!important;
+    }
+
+
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        color: blueviolet;
+        font-size:xx-large;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        color: blueviolet;
+        font-size: large;
+        padding-left: 0px;
+    }
+
+    #Home{
+        color: blueviolet;
+        padding-left: 0px;
+        padding-top: 15px;
+        font-size: large; 
+        margin-left: 40px;
+    }
+    
+    .form-inline .form-control {
+        width: 300px;
+        margin-left: 0%;
+    }
+    .form-inline{
+        margin-right: 5px;
+    }
+    .seller-header{
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 996px){
+    #Home{
+        color: blueviolet;
+        
+        text-align: left;}
+
+        .navbar-expand-lg .navbar-nav .nav-link{
+            color: blueviolet;
+            font-size: large;
+            padding-left: 42px;
+        }
+
+        .seller-header{
+            margin-left: 0px;
+        }
+}
+
+form {
+    position: relative;
+  }
+  .suggest-result {
+    position: absolute; /* Makes the dropdown position relative to the parent */
+    background-color: #fff; /* Ensures dropdown is visible */
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    z-index: 1000; /* Ensures dropdown appears above other elements */
+    border: 1px solid #ddd; /* Adds a border to make it distinct */
+    width: 300px;
+    top: 55px;
+  }
+  
+  .suggest-result li {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  
+  .suggest-result li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .suggest-result li:hover {
+    background-color: #f0f0f0; /* Highlights the hovered item */
+  }
+  
+ .user-header{
+    margin-left: 30px;
+ }

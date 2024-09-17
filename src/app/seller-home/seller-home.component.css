@@ -1,0 +1,30 @@
+table{
+    text-align: left;
+    color: blueviolet;
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid blueviolet;
+    padding: 15px;
+    min-height: 150px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.message-d{
+    color: rgb(231, 21, 21);
+}
+
+.update-link{
+    margin-left: 10px;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+.delete{
+    font-size: 22px;
+    justify-content: space-between;
+}
