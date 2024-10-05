@@ -1,0 +1,94 @@
+{
+    "seller": [
+      {
+        "id": "1d6c",
+        "name": "Ali",
+        "password": "8866",
+        "email": "Ali@gmail.com"
+      }
+    ],
+    "Products": [
+      {
+        "name": "Hp Laptop",
+        "Price": "69999",
+        "Color": "Gray",
+        "Category": "Laptop",
+        "Description": "An Hp Product",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNPkIzbCliA21Ho9XE-gmP2mHiHwubtJjlww&s",
+        "id": "271f"
+      },
+      {
+        "id": "e997",
+        "name": "Dell",
+        "Price": "59999",
+        "Color": "Black",
+        "Category": "Laptop",
+        "Description": "A Dell Product",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTos0YvXMjH04jCStDXEYnsj4MG7YX8BDZPrQ&s"
+      },
+      {
+        "id": "0a1a",
+        "name": "Lenovo",
+        "Price": "49999",
+        "Color": "Black",
+        "Category": "Laptop",
+        "Description": "A Lenovo Product",
+        "image": "https://www.mega.pk/items_images/Lenovo+ThinkPad+E15+G4+Core+i5+12th+Generation+8GB+RAM+512GB+SSD+DOS+Price+in+Pakistan%2C+Specifications%2C+Features_-_23897.webp"
+      },
+      {
+        "id": "f836",
+        "name": "Mac Book",
+        "Price": "99999",
+        "Color": "Gray",
+        "Category": "Laptop",
+        "Description": "An Apple Product",
+        "image": "https://images.priceoye.pk/apple-macbook-pro-mrx33-m3-pro-14-2-18gb-512gb-pakistan-priceoye-nyynx.jpg"
+      },
+      {
+        "id": "069d",
+        "name": "Redmi Note 13",
+        "Price": "57999",
+        "Color": "Black",
+        "Category": "Mobile",
+        "Description": "An Xiaomi Product",
+        "image": "https://cdn.homeshopping.pk/product_images/g/086/Xiaomi-Redmi-Note-13-4G-Midnight-Black-1__58234_zoom.png"
+      },
+      {
+        "id": "d1c4",
+        "name": "Iphone 13",
+        "Price": "100000",
+        "Color": "Ice Blue",
+        "Category": "Mobile",
+        "Description": "An Apple Product",
+        "image": "https://iplanet.one/cdn/shop/files/iPhone_14_Plus_Blue_PDP_Image_Position-1A__WWEN.jpg?v=1691140349"
+      },
+      {
+        "id": "3083",
+        "name": "Infinix 40",
+        "Price": "30000",
+        "Color": "Golden",
+        "Category": "Mobile",
+        "Description": "A Infinix Product",
+        "image": "https://media.wisemarket.com.pk/product/infinix-hot-40i-12.webp"
+      },
+      {
+        "name": "Iphone 15",
+        "Price": "150000",
+        "Color": "Black",
+        "Category": "Mobile",
+        "Description": "An Apple Product",
+        "image": "https://media.wisemarket.com.pk/variant/inventory_47053.webp",
+        "id": "4edb"
+      }
+    ],
+    "user": [
+      {
+        "id": "84f2",
+        "name": "Uzair",
+        "email": "Uzair.khan@gmail.com",
+        "password": "8445"
+      }
+    ],
+    "cart": [],
+    "orders": []
+  }

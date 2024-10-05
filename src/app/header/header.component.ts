@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal, effect } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { ProductService } from '../services/product.service';
 import { product } from '../data-type';
-
+import { scroll } from "motion";
+import JSON from 'json5'
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -15,9 +16,9 @@ export class HeaderComponent implements OnInit {
   sellerName: string = '';  // Changed to string for consistency
   userName: string = '';
   CartItems = 0;
-
+  navbarVisible = signal(true);
   constructor(private router: Router, private productService: ProductService) {}
-
+  
   ngOnInit(): void {
     this.router.events.subscribe((val: any) => {
       if (val.url) {
@@ -46,8 +47,18 @@ export class HeaderComponent implements OnInit {
     this.productService.cartData.subscribe((items)=>{
       this.CartItems= items.length
     })
+  
+  scroll( (scrolinfo)=>{
+    const position = scrolinfo.y.current;
+    if(position>350){
+      this.navbarVisible.set(false);
+    }else{
+      this.navbarVisible.set(true);
+    }
+  });
+  
   }
-
+  logVisible = effect(()=>{console.log(this.navbarVisible)} );
   logout() {
     if (confirm("Are you sure you want to Logout?")) {
       localStorage.removeItem('seller');
@@ -80,5 +91,6 @@ export class HeaderComponent implements OnInit {
   Submitsearch(term: string) {
     this.router.navigate(['/search', term]);
   }
+  
 }
 

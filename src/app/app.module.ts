@@ -20,7 +20,7 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './check-out/check-out.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
-
+import { scroll } from "motion";
 
 
 
@@ -44,6 +44,7 @@ import { MyOrdersComponent } from './my-orders/my-orders.component';
   ],
   imports: [
     BrowserModule,
+
     AppRoutingModule,
     FormsModule,
     HttpClientModule,

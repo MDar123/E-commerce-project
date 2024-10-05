@@ -38,11 +38,7 @@ export class ProductService {
   CrouselProducts(){
     return this.http.get<product[]>('http://localhost:3000/Products?_limit=8');
   }
-
-  // TreandyProduct(){
-  //   return this.http.get<product[]>('http://localhost:3000/Products?_limit=8');
-  // }
-
+  
   SearchProduct(searchTerm: string) {
     return this.http.get<product[]>(`http://localhost:3000/Products?Category=${searchTerm}`);
   }
